@@ -1,256 +1,100 @@
-<!DOCTYPE html>
-
-<html lang="en" style="height: 100%">
-    <head>
-        
-            <!-- Google tag (gtag.js) -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHJF51F24N"></script>
-            <script>
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'G-DHJF51F24N');
-            </script>
-        
-
-        <meta charset="utf-8">
-        <title>Login: PythonAnywhere</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Login: PythonAnywhere">
-        <meta name="author" content="PythonAnywhere LLP">
-        <meta name="google-site-verification" content="O4UxDrfcHjC44jybs2vajc1GgRkTKCTRgVzeV6I9V14" />
-
-
-        <!-- Le styles -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" />
-
-        <link rel="stylesheet" href="/static/CACHE/css/output.dd8a81d47a2f.css" type="text/css" media="screen">
-        <link rel="stylesheet" href="/static/CACHE/css/output.b9a4961a16f7.css" type="text/css"><link rel="stylesheet" href="/static/CACHE/css/output.f5a02b1eb0f3.css" type="text/css" media="screen">
-
-        <!-- Le javascript -->
-        <script type="text/javascript">
-            var Anywhere = {};
-            Anywhere.urls = {};
-            Anywhere.csrfToken = "KQ7LjVXAia1daOKQzMvYXB791fVZo8KVBJvidiI5OwpJm4e8qJiQ9MEgcoUlUov2";
-        </script>
-        <script src="/static/CACHE/js/output.47562153ee77.js"></script>
-        
-
-        <script src="/static/CACHE/js/output.a0cffd228d2e.js"></script>
-        
-        
-
-    </head>
-
-    <body style="height:100%;">
-       <div style="min-height: 100%; position: relative;">
-        
-  
-    <nav class="navbar alert alert-warning alert-dismissible cookie-warning" style="padding: 10px 35px 5px 35px; min-height: auto;" id="id_cookie_warning_marker_for_response_middleware">
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
-      <p>
-        <small>
-          We use cookies to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media and analytics partners. <a href="/privacy/#cookies">Details here</a>.
-        </small>
-      </p>
-    </nav>
-  
-
-        
-  <nav class="navbar top-nav hidden-xs">
-    <div class="container">
-      <ul class="nav navbar-nav navbar-right">
-        
-<li class=""><a href="" target="_parent" class="feedback_link">Send feedback</a></li>
-
-
-<li class=""><a href="/forums/" target="_parent" class="forums_link">Forums</a></li>
-<li class=""><a href="https://help.pythonanywhere.com/" target="_parent" class="help_link">Help</a></li>
-<li class=""><a href="https://blog.pythonanywhere.com/" target="_parent" class="blog_link">Blog</a></li>
-
-  <li class=""><a style="font-weight: bold;" href="/pricing/" target="_parent" class="pricing_link">Pricing & signup</a></li>
-  <li class=""><a href="/login/?next=/login/" class="login_link" target="_parent">Log in</a></li>
-
-
-      </ul>
-    </div>
-  </nav>
-
-  
-
-
-
-
-  <nav class="navbar primary-navbar">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_nav" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/">
-          <img id='id_logo' src="/static/anywhere/images/PA-logo.svg" width="225">
-        </a>
-      </div>
-
-      <div class="collapse navbar-collapse" id="main_nav">
-        <ul class="nav navbar-nav navbar-right">
-          
-            
-
-          
-          
-<li class="visible-xs"><a href="" target="_parent" class="feedback_link">Send feedback</a></li>
-
-
-<li class="visible-xs"><a href="/forums/" target="_parent" class="forums_link">Forums</a></li>
-<li class="visible-xs"><a href="https://help.pythonanywhere.com/" target="_parent" class="help_link">Help</a></li>
-<li class="visible-xs"><a href="https://blog.pythonanywhere.com/" target="_parent" class="blog_link">Blog</a></li>
-
-  <li class="visible-xs"><a style="font-weight: bold;" href="/pricing/" target="_parent" class="pricing_link">Pricing & signup</a></li>
-  <li class="visible-xs"><a href="/login/?next=/login/" class="login_link" target="_parent">Log in</a></li>
-
-
-        </ul>
-      </div>
-
-    </div>
-  </nav>
-
-  <div class="container">
-    
-
-  </div>
-
-  
-
-    
-  
-
-
-        
-  
-
-
-        
-    
-  <div class="container">
-    <div class="row">
-      <div class="col-md-5 offset-md-3">
-        
-  <h1>Log in</h1>
-
-  
-
-  <form class="form" action="" method="post"><input type="hidden" name="csrfmiddlewaretoken" value="KQ7LjVXAia1daOKQzMvYXB791fVZo8KVBJvidiI5OwpJm4e8qJiQ9MEgcoUlUov2">
-    <table>
-  <style type="text/css" scoped>
-    /* hide stupid updowney arrows on number input */
-    input[type="number"]::-webkit-outer-spin-button,
-    input[type="number"]::-webkit-inner-spin-button {
-      -webkit-appearance: none;
-      margin: 0;
-    }
-    input[type="number"] {
-      -moz-appearance: textfield;
-    }
-    .d-none {
-      display: none;
-    }
-  </style>
-  <input type="hidden" name="login_view-current_step" value="auth" id="id_login_view-current_step">
-  
-
-<p class="form-group">
-  <input type="text" name="auth-username" placeholder="Username or email address" tabindex="1" autocorrect="off" autocapitalize="off" class="form-control" maxlength="100" required id="id_auth-username">
-  <span class="help-block">
-    No account? <a href="/pricing/" id="id_signup_link">Sign up here!</a>
-  </span>
-</p>
-<p class="form-group">
-  <input type="password" name="auth-password" placeholder="Password" tabindex="2" class="form-control" required id="id_auth-password">
-  <span class="help-block">
-    <a href="/password_reset/">Forgotten password?</a>
-  </span>
-</p>
-<div class="clear"></div>
-
-</table>
-
-
-    
-    <div style="margin-left: -9999px"><input type="submit" value=""/></div>
-
-    
-
-    
-    <button id="id_next" type="submit" class="btn btn-primary">Log in</button>
-
-    
-
-  </form>
-
-      </div>
-    </div>
-  </div>
-
-
-
-        
-  <div class="footer-spacer"></div>
-  <footer id="id_copyright_div" class="footer">
-    <p>
-      Copyright &copy; 2011-2024 <a href="/about/company_details/">PythonAnywhere LLP</a>
-      &mdash;
-      <a href="/terms/">Terms</a>
-      &mdash;
-      <a href="/privacy/">Privacy & Cookies</a><br/>
-      </p>
-  </footer>
-
-      </div>
-
-        
-
-
-        <div id="id_feedback_dialog" title="Help us improve" style="display:none">
-    <div id="id_feedback_dialog_blurb_big" class="dialog_blurb_big">
-        It's always a pleasure to hear from you!
-    </div>
-    <div id="id_feedback_dialog_blurb_small">
-        Ask us a question, or tell us what you love or hate about PythonAnywhere.<br/>
-        We'll get back to you over email ASAP.
-    </div>
-    <textarea id="id_feedback_dialog_text" rows="6"></textarea>
-    <input id="id_feedback_dialog_email_address" type="text" placeholder="Email address (optional - only necessary if you would like us to contact you)"/>
-    
-    <div id="id_feedback_dialog_error" style="display: none">
-        Sorry, there was an error connecting to the server. <br/>Please try again in a few moments...
-    </div>
-    <div id="id_feedback_dialog_rate_limit_error" style="display: none">
-        Sorry, we have had to rate-limit your feedback sending.<br/>Please try again in a few moments...
-    </div>
-    <div id="id_feedback_dialog_success" style="display: none">
-        Thanks for the feedback! Our tireless devs will get back to you soon.
-    </div>
-    <div class="dialog_buttons">
-        <img id="id_feedback_dialog_spinner" src="/static/anywhere/images/spinner-small.gif" />
-        <button class="btn btn-primary" id="id_feedback_dialog_ok_button">OK</button>
-        <button class="btn btn-default" id="id_feedback_dialog_cancel_button">Cancel</button>
-    </div>
-    <div id="id_feedback_dialog_only_close_button" style="display: none">
-        <button class="btn btn-primary" id="id_feedback_dialog_close_button">Close</button>
-    </div>
-</div>
-
-
-        
-        <!-- preload font awesome fonts to avoid glitch when switching icons -->
-        <div style="width: 0; height: 0; overflow: hidden"><i class="fa fa-square-o fa-3x" ></i></div>
-    </body>
-</html>
+T3R!! M99 D!! KUSS W!XH L9N MRUB Y9T33M D!Y9 B9CH9 M9D9R XH0D K9 B9CH3 R9ND!! K UL9D T3R! BH3N K! KUSS F9R DUNG9 M3 T3R!! M99 CHUD DUNGAW😆❤️]]
+ T3R!!! BH3N NU NU L9N M9RU T3R!! T3R!!! BH3N K!! D!M9GH M3 L9ND M9RK3 US3 P9G K9R DU M9DR XH0D B9GN9 JURM H9 T3R!! M99 K!! KUS FRU😆❤️]]
+ T3R!! M99 D!! J9W9N!! K9H J9UNG9 MWR9 B9CH9 TWR!!! M99 XHUD DUNG9 Y9T33M K9 B9CH3 T3R!!! R9ND!!! BH3N K!! KUS M3 M9N!! MRU T3R!! BH3N K!! CHUT 9Z9B KRU😆❤️]]
+ T3R!!!! M99 K!! KUSS F9T G9Y9 Y9T33M G9NDU CHUD G9Y9 N9 T3R!!! M99 K! KUSS !TN9 J9LD!! T3R! M99 CHUD J9T9 H9 L9N9T!! K B9CH3 TWR! M99  K! KUSS P9R L9N9T😆❤️]]
+ TWR!!! P9!N NU L9N M9RU T3R!! S3XY BH3N K! KUSS M3 GUS J9UNG9 M3 T3R!!! BH3N K!! S9TH S3X KRUNG9 T3R!! BH3N K0 B9CH9 H0G9 Y9T33M K UL9D😆❤️]]
+ T3R!!! S3XY M99 K S9TH S3XY CH9T K9RK3 US3 F9C3B00K R9ND!! B9N9 DU T3R!!! BH3N K!! KUS F9R K3 US3 T0P R9ND!! G9SHT!! UR9TH B9N9 DU😆❤️]]
+ T3R!!! BH3N K!! KUSS M3 L9ND T0KU L9L K9RK3 US3 P3NK DUNG9 T3R!! BH3N K0 CH9RS3 P3L9 K US3 R9ND!! CH9KL3 B9Z B9N9 DUNG9 Y9T33M K99W B9CH99 😆❤️]]
+ T3R!!! BH3N K!! KUSS M3 L9ND T0KU L9L K9RK3 US3 P3NK DUNG9 T3R!! BH3N K0 CH9RS3 P3L9 K US3 R9ND!! CH9KL3 B9Z B9N9 DUNG9 Y9T33M😆❤️]]
+ T3R!!! N9GN!!! BH3N K!! V!D30 B9N9 DUNG9 Y0UTUB3 UPL09D KRUNG9 YTW3M M99 K B9CH3 T3R!!! M99 K!! CHUT S3 B9CH9 N!K9LL DUNG9 L!G!R! K9 B9CH9 😆❤️]]
+ T3R!!! CHUT!!! BH3N K!! CHUD9!! K9RK3 M3N3 USK9 S39L TH0R D!Y9 R9ND! K9 B9CH3 T3R! BH3N K!! SH9D!! C3NC3L H0 G9Y9 T3R9 P9P9 N3 TWR! M99 XHUD D!Y9😆❤️]]
+ T3R!!! M999 D!!! KUSS W!CH M3R9 L9N MRU T3R! BH3N K!! KUSS M3 L9N H33 L9N Y9T33M K9 B9CH3 T3R! M99 XHUD D!Y9 N9 M3N3 M3R9 B9CH9😆❤️]]
+ T3R!!! BH3N K0 ULT9 L9TK9 K XHUDU T3R! BH3N K0 XHUD XHUD K F9R DU T3R!!! SM0XY B9J!! J9N M3R9 L9ND CH9TN3 L9G J9T9 H9 R9ND!! D!Y9 B9CH9😆❤️]]
+ T3R!!! 9P!! J9N K!! CHUT S3 B9CH9 N!K9LL K9R USK9 N9M3 R9ND!! K9 B9CH9 R9K DUNG9 M3 T3R!! BH3N CHUD DUNG9 R9ND! K9 B9CH3 M9D9R CH0D F9ML!Y S3 H9 TU😆❤️]]
+ T3R!!! R9ND!! 9M!! J9N CHUDN3 W9L9 T3R!! M99 K!! KUSS M3 L9ND D9LN3 W9L9 T3R9 P9P9 M3 HU T3R!!! BH3N K!! Z!ND9G!! KH9R9B M3N3 K!9 T9H Y9T33M K UL9D😆❤️]]
+ T3R!!! SM0XY BH3N J0 G9R K9 L9DL9 H9 USK!! B!! KUSS F9T J9YG9  M3R9 L9N B9RD9SHT NH!! K9R P9YG9 P9TH9N M9D9R XH0D K9 B9CH9 T3R9 P9P9 H3R3😆❤️]]
+ TUM9RII SHC00L JT3 HU3 BH3N K0 KIDN9P KRK3 USKIII ZIND9GI KH9R9B KRU M3 W9HII HU T3RI M9W KI J9W9NI K9H LIIY9😆❤️]]
+ T3RI M9W KI J9W9NIII M3 L0LIX M9RU R9NDIII K9W B9CH9W TWRII SM0XY BH3N KI CHUT H9C33N K9NJR3 K3 B9CH3😆❤️]]
+ T3RII B3H9N K0 L3T9 K9R LAND M9R0 KISI 9D9MKH0R R9NDII K3Y B9CHY T3RI M9N NU LUN DIW9😆❤️]]
+ T3RII B3H9N DII K9LI K0S M9RN KISI M0TI T3X9N DI9 B9CH9W T3RI D9DI D9 PHUD9 T0K9N R9NDII K3😆❤️]]
+ T3RI B3H9N DI SUST G9ND M9 LUN D3K9R USKI G9ND URR9 D9LU KISI M0TI G9ND W9LI DI9 B9CH9 T3RI M9W D9 SHOL9😆❤️]]
+ KIDS SUN T3RI M9W KI CHUT F9RU CH0MTIY9 K9 B9CH9 T3RI M9W NU L9N M9RU KISI G9SHTII D9 B9CH9😆❤️]]
+ SUN9 H9 T3RI BH3N N9NG9 GUMT9 H9 CH0MTIY9 9PNI BH3N K0 B9CH9 L3 W9RN9 T3RII BH3N RUSW9 H0 G9Y9 H0G9😆❤️]]
+ SUN9 H9 T3RI M9W KI ZIND9GII J9L G9Y9 M3R3 H9TH 9B T3RI M9 KI9 K9R3G9  Z9R9 B9T9 MUJ3 M3 T3RI BH3N K0 LUNG9 KI9 T3RI M99 B9CH J9YG9😆❤️]]
+ SUN9 H9 T3RI BH3N RUSW9 H0 G9Y9 9B T3RI BH3N KI ZIN9 KRUNG9 N9 M3 R9NDI K9 B9CH3 Y9T33M T9T9 B9N G9Y9 T3RI MAA😆❤️]]
+ SUN9 H9 T3RII M99 B9R9 R9NDI H9 M9D9R CH0DI K9RT9 H9 T3RI BH3N KI B9RW9I K9RK3 T3RI BH3N CH0DW9 L3T9 H9 MUJS3😆❤️]]
+ T3R1 N1K1 9P1 K1 B0BS P9R M0T M9RU G9SHT1 K B9CH3 T3R1 M99 NU L9N M9RK3 B9CH9 N1K9LU B0SDK3 UL9D BH3N CH0D R0N9 KR TU BS CH0T1Y😆❤️]]
+ 0Y3 Y9T33M T3RI M99 KI CHUT R9NDII K3 B9CH3 KIDS K UL9D KISI T3XI M9W K B9CHW T3RI P9IN D9 FUD9😆❤️]]
+ T3RIII 15 S9L9 BH3N KI KUS M3 L9ND SP33D S3 D9LUNG9 S39L T0T J9YG9 KH00N NIK9L J9YNG3 T3RI BH3N KI CHUT S3 M3R9 B9CH9😆❤️]]
+ T3RI F9MLIY KI H9R L9RKII KI S39L TH0RUNG9  S9BK9 ZIND9GI KH9R9B H0G9 T3RI BH3N UNK0 B NHII CH0R0NG9 M3 Y9T33M😆❤️]]
+ T9T9 SUN T3R9 M99 R9NDI H99 KI9 T3RI M9W KI CHUT F9TII HU33 H9 KI KUTH3 D9 B9CH9 T3RI M9W KO CHUDU😆❤️]]
+ T3RI B3H3N KI CH00T M3 MAI L0WDA DUNGA B3H3N CH0UD K3 BACCH3W T3RI B3H3N KI CH00T MARUNGA BH0SDIK3 BACCH3W 😆❤️]]
+  L0WD3 K3 BACCH3W T3RI B3H3N K3 BH0SD3 M3 LAAT MAAR MAAR K3R T3RI B3H3N KI CH00T K0 MAI SULA DUNGA L0WD3 K3 BACCH3W3 😆❤️]]
+ T3RI B3H3N KI GAAND M3 MAI HATHI KA L0WDA DAAL K3R T3RI B3H3N KI GAAND K0 CH33R DALU RANDII K3 NASHAL 😆❤️]]
+ L9N9T1 M9D9R CH0D K UL9DD R9ND1 K N9S9L F33L KR T3R1 N1K1 M99 NU L9N M9RU G9SHT1 K UL9DD M99 CHUDU T3R9 M9IW😆❤️]]
+ Y99D K9R M9 T3R9 W0 B99P HUN J1SK0 TUJH3 T3R1 M99 NY 9J T9K N9H1 B9T9Y9 H91😆❤️]]
+ T3RI B3H3N KI GAAND M3 MAI L0WDA DUNGA B3H3N CH0UD K3 DINN3 T3RI B3H3N KI CH00T K0 MAI SULA DU 😆❤️]]
+ T3RI MAA K3 BH0SD3 MA MAI LAAT MAAR KAR T3RI B3H3N K3 BH0SD3 K0 MAI CH33R DUNGA 😆❤️]]
+ T3RI BAJI KI CH00T M3 MAI SUN3HRI L0WDA DAAL K3 T3RI BAAJII KI CH00T K0 KALAPA DUNGA 😆❤️]]
+ :* T3RI B3H3N KI GAAND KA MAI W0 HAAL KRUNAG B3NCH0UD K3 DIINN3 KI T3RI B3H3N KI GAAND =DFATI KI FATI R3H JAAY3GI 😆❤️]]
+ T3RI T3RI B3H3N KI CH00T T0 KALAP KALAP K3 L0WDA CH00S3 JAA RHI HAI H3N H3N B3H3N CH0UD K3 DINN3 😆❤️]]
+ SUNA HAI T3RI MAA 1 JUNGL3 MAI GAY3 THI WAHA W0 BHATAK GAY3 THI AUR KISI P0W3RFUL JANWAR N3 USKI GAAND MAI J0R S3 PANJA MAARA THA SAHI SUNA HAI KYA 😆❤️]]
+ SUNA HAI T3RI MAA HARPIC P0W3R US3 KARTI HAI IS IY3 USKI CH00T T3RI B3H3N KI CH00T S3 PAANCH_GUNAAH JYADA B3HTAR SAAF HAI :P :D SAHI SUNA HAI KYA 😆❤️]]
+ T3RI MAA K3 KUSS K0 MAI CH33R DU SUAR K3 BACCH3W T3RI B3H3N K3 BH0SD3 MA MIA FIR3 KRU 😆❤️]]
+ T3RI B3H3N KI CH00T K0 MAI AISA CH0UDUNGA KI T3RI B3H3N KI CH00T AAJ KALAP3GI L0WD3 K3 BAAL 😆❤️]]
+ T3RI MAA K0 MAI AISA CH0UDUNGA KI T3RI BAAJII KI RUH KAANP UTH3GI B3H3N CH0UD K3 DINNN3 😆❤️]]
+ T3RI MAA KI CH00T MAI AAJ MAI N3 S0DA KI B0TTLY HILA HILA K3 KH0L K3 GHUSSAAY3 THI JAA K3 D3KH KUCH S0DA BACHI HAI WAHA T0H P33 L3 NAHI T0H WAHI R3HN3 D3 😆❤️]]
+ T3RI B3H3N K3 D0N0 CH0CH3 K3 B33CH 1 DAANA HAI USS DAAN3 KA SIZ3 BATA 😆❤️]]
+ ACHA SUN APNI B3H3N K3 B00BS KA M33THA M33THA RAS MALAI WAALA D00DH T0H PILA D3 MUJH3😆❤️]]
+ T3RI MAA KI CH00T MAI D3KH MAIN3 GARAM GARAM K0YL3 DAAL DIY3 TH3 D3KH CH00T KAALI H0WI K3 NAHI😆❤️]]
+ SUNA HAI T3RI BAAJI KI CH00T S3 JAB PANI NIKALTA HAI T0U TUM SAB US S3 SUBAH FAC3 WASH K3RT3 H0 Y3 SACH HAI KYA😆❤️]]
+ SUNA HAI T3RA BAAP GALI0N MAI L0WDA CH00STA HAI ? Y3 SACH HAI KYA 😆❤️]]
+ SUNA HAI T3RA BAAP KACHRAA UTHAAN3 GALI GALI FIRTA HAI Y3 SACH HAI KYA 😆❤️]]
+ SUNA HAI T3RI BAAJI BH33K MANG MANG K3 APNI CH00T CHUDWATI HAI 😆❤️]]
+ SUNA HAI T3RI BAAJI CH00T MAI D00DH DAAL0 T0U PANI NIKALTA HAI Y3 SACH HAI KYA 😆❤️]]
+ SUNA HAI T3RI BAAJI SWIMMING K3RT3 K3RT3 SWIMMING P00L KA SAARA PAANI APNI CH00T MAI L3 GAYI THI Y3 SACH HAI KYA😆❤️]]
+ SUNA HAI T3RA BAAP CIGRATT3 APNI GAAND S3 P33TA HAY ? Y3 SACH HAI KYA 😆❤️]]
+ AB3 T3RI MAA KI CH00T D3KH JAA K3 ZUNG LAG GYA HAI SAAF T0H KAR LIYA KAR B3H3N K3 L0WD3 😆❤️]]
+ SUNA HAI T3RI MAA N3 KISSI AUR S3 CHUDWA K3 TUJH3 P3DA KIYA HAY KYUNK3 T3RA BAAP KHUSRA HAI ? Y3 SACH HAI KYA 😆❤️]]
+ AB3 T3RI MAA KI NAAK MAI 2 M3T3R LAMBI K33L GAAD DUNGA FIR T3RI MAA K0 MUHH S3 SAANS L3NA PAD3GA H33H3H3H3H3 😆❤️]]
+ ACHA CHAL R00 MAT ACHA Y3 BATA T3RA BAAP BR3AK DANC3 K3R L3TA HAI KYA😆❤️]]
+ T3RI MAA KI CH00T MAI GARRAM L0HA DAAL K3 JAMA DUNGA H3H33H3H3H3H3H3H3HH T3RI MAA KI CH00T BL0CK H0 JAYGI 😆❤️]]
+ T3RI B3H3N KI CH00T K0 CHAAQU S3 KAAT KAR FIR TAANK3 LAGA KAR WAPIS P3HL3 JAISA KAR DUNGA😆❤️]]
+ T3RI MAA K3 BH0SD3 MAI TUJH3 WAAPIS GHUSS3D DUNGA BAAP S3 FADDA KAR3 GA TU H3IN😆❤️]]
+ T3RI MAA KI CH00T MAI GHUSS KAR KHUJLI KARUNGA MAI USS S3 T3RI MAA K0 ACHA LAG3GA😆❤️]]
+ AB3 BH0SDIK3 T3RI MAA KI CH00T MAI M3THAN3 KI PIP3 DAL K3 AAG LAGA DUNGA T3RI MAA R0CK3T KI TARA UD3GI HAHAAHAHAH 😆❤️]]
+ T3RI MA KI GAAND M3 ITN3 L0WD3 MARUNGA USKI GAAND L0D0 KI KHAN LAG3N3 LG3GI B3H3NCH0UD😆❤️]]
+ MATHRCHD K3 BACH3 SUWR K3 BACH3 T3RI MA KI GAAND M3 MUKK3 MAR K USKI GAAND SUJA DU😆❤️]]
+ SAL3 T3RI MAA KI CH00T MAI MIRCHI AUR T3L GARAM KARK3 TADKA LAGA DUNGA 😆❤️]]
+ T3RI MAA N3 TUJH3 PAIDA KARN3 S3 P3HL3 T3R3 BAAP KA 1 INCH KA L0WDA L3N3 S3 USK0 CH00T KA CANC3R H0 GYA AB MAI D0CT0R BAN K3 T3RI MAA KI CH00T KA ILAAJ KARUNGA 😆❤️]]
+ T3RI MAA KI CH00T MAI AATANKWADI0 S3 NISHAAN3 LAGWAUNGA B3 BH0SDIK3 😆❤️]]
+ SAL3 CHTIY3 K3 BACH3 CHUDAKAD KH0R  KI AUALD  HRAM K3 PIL3  M3RA L0WDA CHOOS3GA😆❤️]]
+ CH00T MARI K3 DIN3  T3RI B3H3N KA RAP3 KARUNGA BHARI M3TR0 M3 L3 JA K3 MA K3 LUND😆❤️]]
+ T3RI MA K3 KAL3 BH00SD3 M3 B0MB F0D K3 BLAST KRVA DUNGA MATHRCHD K3 BACH3😆❤️]]
+ CHINAL K3 PIL3  K0TH3 VALI RANDI K3 IKL0T3 KUTIYA K3 BACH3 B3H3NCH0UD K3 DIN3😆❤️]]
+ T3RI MA K3 BH0SD3 M3 APN3 LUND S3 USK3 BH0SD3 K0 KHULA KAR DUNGA SAL3 CHAMR😆❤️]]
+ MATHRCHD K3 BACH3 CHUD3 HU3 TATT3 YHA APNI MA K0 CHUDAN3 AYA THA MA K3 LUND😆❤️]]
+ MA K3 LUND  T3RI B3H3N KI CH0TI CH00T M3 APN3 L0WD3 K0 DAL K3 USKI CH00T KH0LU😆❤️]]😆❤️]]
+ T3RI MA K3 BH0SD3 M3 CURRNT LAGA K3 USK3 BHS0D3 M3 S3 BACH3 PAIDA KAR DUNGA😆❤️]]
+ T3RI MA KI GAAND M3 SAND KA LULLA FASA DU BH0SDI K3 DAL33T K3 BACH3😆❤️]]
+ MA K3 LUND B3TICH0UD K3 BACH3 T3RI MA K3 BH0SD3 K0 CH33R K3 RKH DU SAL3 GAAND😆❤️]]
+ T3RI MA K3 BH0SD3 M3 THPAD DUNGA SAL3 GHANDV3 K3 BADCH3 B3H3NCH0UD K3 DIN3😆❤️]]
+ T3RIIW M9W K9W KUS99 M9RUU D9LII M99W DY99 B9CHY99 S9LY99 Y9T33M K99W B9CH99W 😆❤️]]
+ OY3 T3RII 9MII K9W KUS99 M99R K99R NIL99M K9RUU D9LII K99W B9 H9😆❤️]]
+ 0Y3 T3RIW M9W KIW CHUD9IIW KR9W KSIIW R9NDIIW K3 B9CH3 BH3N K3 L0D3 😆❤️]]
+ 0Y3 T3RIW M9W K3 PHUD3 Y9W99 K3 KISII G9SHTIW K9W B9CH9W M9RSIIW K3 PIL3 😆❤️]]
+ 0Y3 KSII R9NDIIW K9W B9CH9W BH3N K4 L0D3 G9ND K4 GUS J9N9W T3RIW M9W 😆❤️]]
+ T3RII M0SII KII CH00T M9IIW LUNRR K9RUU D9LII DY99 B9CHY99 OK99TT L3SS MIKYY T9TY999 😆❤️]]
+ T9RIIW M9W KIW KUS K3TRIN99W K3F K3 B9CH3 G9NDUW N9SN9W M9TTW 😆❤️]]
+ Y9W99 K3 M9DRCH0D K3 B9CH3 SL0W T9T3 G9NDUUW KIW UL9DW T3RIIW BH3N K0W T9W9IF B9N9W K3 P3L9 😆❤️]]
+ OY3 TERIIW M9W K3 BH0SR3 K3 9GH LG9W K3 BH9G J90W S9L3 JH9T K3 B9R9B9R K3 T9T3 L0C9LL K9T0R3 M9RSII K3 B9CH3 😆❤️]]
+ 0Y3 T3RIIW M99W K3 MUHW M3 S9RIY9W D9LW K3 USKIW MUH KIW H9L9T BURI8W KR9W S9ST3 T9T3 😆❤️]]
+ T3RII B3HN99 KII KUSS TY LITH3RR M9R99N D9LII DY99 B9CHY99 S9LY99 G9SHTII K9WW B9CHO9😆❤️]]
+ T3RII B3HN99 KII CH0TIU CH00T M9IIW LUNDD M9RUU KH0TII K99WW B9CH99 OK99TT BN99W T9T9 JIIW 😆❤️]]
+ 0Y3 KSII KUTIW K3 KUT3 S3 B9CH3 G9ND K9W Z0R LG9W G9WRR T9T3W 😆❤️]]
+ T3RII M0SII KII GUL9BII CH00TT M9IIW LUNDD M9RUU D9LII D799 B9CHY99  OK99TT L3SSS T9TY99😆❤️]]
+ T3RII B3HN99 K9WW ZIN99 K9RUU G9WRRR Y9T33M K9WW KUS99 M9RUU D9LII DY99 B9CHY99 😆❤️]]
+ T3RII T9XII M99WW KII K9LII M0TII PHUDIIW M9IIW LUNDD K9RUU D9LII DY99 B9CHY99 😆❤️]]
+ 0Y3 KSII G9WRR K3 Y9T3MM T9T3 BH3N KIW KUS T3RIIW KIIW S9L3 S9ST3 PIL3 BSDK K3 B9CH3 😆❤️]]
+ T3RII M0SII K9WW S9NJ99 M9NJ99 M9RUU G9WRR KH0TII K9WW B9CH99 S9L99 L0WW L3VLL Y9T33M 😆❤️]]
+ T3RII B3HN99 K9WW ZIN99 K9RUU G9WRRR Y9T33M T9T9 JIIW R0N99W N9HIIW H9IIWW 😆❤️]]
